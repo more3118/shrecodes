@@ -385,6 +385,11 @@ img, video {
   grid-row-start: 3;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-2 {
   margin-bottom: .5rem;
 }
@@ -425,6 +430,10 @@ img, video {
   flex-wrap: wrap;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -457,12 +466,25 @@ img, video {
   gap: 2rem;
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
 .rounded {
   border-radius: .25rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: .375rem;
+}
+
+.rounded-r-lg {
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
 }
 
 .border {
