@@ -326,8 +326,17 @@ img, video {
   display: grid;
 }
 
+.size-full {
+  width: 100%;
+  height: 100%;
+}
+
 .h-10 {
   height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .min-h-screen {
@@ -352,10 +361,6 @@ img, video {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.place-items-center {
-  place-items: center;
 }
 
 .items-center {
@@ -394,21 +399,16 @@ img, video {
   justify-self: center;
 }
 
-.rounded {
-  border-radius: .25rem;
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.text-pretty {
+  text-wrap: pretty;
 }
 
 .rounded-full {
   border-radius: 9999px;
-}
-
-.rounded-md {
-  border-radius: .375rem;
-}
-
-.rounded-r-lg {
-  border-top-right-radius: .5rem;
-  border-bottom-right-radius: .5rem;
 }
 
 .border {
@@ -427,31 +427,22 @@ img, video {
   border-color: #0000;
 }
 
-.bg-black\/\[\.05\] {
-  background-color: #0000000d;
-}
-
 .bg-foreground {
   background-color: var(--foreground);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
 .p-8 {
   padding: 2rem;
 }
 
-.px-1 {
-  padding-left: .25rem;
-  padding-right: .25rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.py-0\.5 {
-  padding-top: .125rem;
-  padding-bottom: .125rem;
 }
 
 .pb-20 {
@@ -470,17 +461,62 @@ img, video {
   font-family: var(--font-geist-sans);
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: .875rem;
   line-height: 1.25rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-background {
   color: var(--background);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-600 {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-orange-600 {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity, 1));
 }
 
 .antialiased {
@@ -573,10 +609,6 @@ body {
 @media (prefers-color-scheme: dark) {
   .dark\:border-white\/\[\.145\] {
     border-color: #ffffff25;
-  }
-
-  .dark\:bg-white\/\[\.06\] {
-    background-color: #ffffff0f;
   }
 
   .dark\:invert {
