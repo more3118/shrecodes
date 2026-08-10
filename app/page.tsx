@@ -1,14 +1,5 @@
 import Image from "next/image";
 
-const skills = [
-  "Next.js",
-  "TypeScript",
-  "Tailwind CSS",
-  "UI/UX Design",
-  "Responsive Web Apps",
-  "Performance Optimization",
-];
-
 const projects = [
   {
     title: "Product Launch Site",
