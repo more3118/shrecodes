@@ -68,61 +68,61 @@ const certifications = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.16),_transparent_35%),linear-gradient(135deg,_#f8fbff_0%,_#eef4ff_100%)] text-slate-800">
+    <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.14),_transparent_32%),linear-gradient(135deg,_#07111f_0%,_#0f172a_55%,_#111827_100%)] text-slate-200">
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-8 lg:px-10">
-        <a href="#home" className="text-lg font-semibold tracking-tight text-slate-900">
+        <a href="#home" className="text-lg font-semibold tracking-tight text-white">
           Shreyas More
         </a>
-        <nav className="hidden gap-6 text-sm font-medium text-slate-600 md:flex">
-          <a href="#about" className="transition hover:text-slate-900">
+        <nav className="hidden gap-6 text-sm font-medium text-slate-400 md:flex">
+          <a href="#about" className="transition hover:text-white">
             About
           </a>
-          <a href="#work" className="transition hover:text-slate-900">
+          <a href="#work" className="transition hover:text-white">
             Work
           </a>
-          <a href="#certifications" className="transition hover:text-slate-900">
+          <a href="#certifications" className="transition hover:text-white">
             Certifications
           </a>
-          <a href="#contact" className="transition hover:text-slate-900">
+          <a href="#contact" className="transition hover:text-white">
             Contact
           </a>
         </nav>
       </header>
 
       <main id="home" className="mx-auto flex max-w-6xl flex-col gap-16 px-6 pb-20 sm:px-8 lg:px-10">
-        <section className="grid items-center gap-10 rounded-[2rem] border border-slate-200/80 bg-white/80 p-8 shadow-[0_20px_80px_-30px_rgba(15,23,42,0.35)] backdrop-blur md:grid-cols-[1.2fr_0.8fr] md:p-12 lg:p-16">
+        <section className="grid items-center gap-10 rounded-[2rem] border border-slate-800/80 bg-slate-900/70 p-8 shadow-[0_20px_80px_-30px_rgba(0,0,0,0.8)] backdrop-blur md:grid-cols-[1.2fr_0.8fr] md:p-12 lg:p-16">
           <div>
-            <p className="mb-3 inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700">
+            <p className="mb-3 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-sm font-medium text-cyan-300">
               AI Engineer • Cloud & Product Builder
             </p>
-            <h1 className="max-w-2xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
+            <h1 className="max-w-2xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
               Building AI-powered products that turn complex systems into practical outcomes.
             </h1>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
+            <p className="mt-5 max-w-xl text-lg leading-8 text-slate-300">
               I design and ship intelligent experiences across cloud architecture, LLM applications, automation, and product engineering—bringing strategy, data, and deployment together into reliable systems.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href="#certifications"
-                className="rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700"
+                className="rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-200"
               >
                 View Credentials
               </a>
               <a
                 href="#contact"
-                className="rounded-full border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50"
+                className="rounded-full border border-slate-700 px-5 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:bg-slate-800"
               >
                 Let&apos;s Connect
               </a>
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
-              <span className="rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600">
+              <span className="rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300">
                 LLMs & AI workflows
               </span>
-              <span className="rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600">
+              <span className="rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300">
                 AWS + Azure cloud systems
               </span>
-              <span className="rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600">
+              <span className="rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300">
                 End-to-end product delivery
               </span>
             </div>
@@ -131,7 +131,7 @@ export default function Home() {
           <div className="relative flex items-center justify-center">
             <div className="absolute inset-6 rounded-[2rem] bg-gradient-to-br from-sky-400/20 to-violet-400/20 blur-3xl" />
             <Image
-              className="relative h-72 w-72 rounded-[2rem] object-cover shadow-2xl ring-8 ring-white/70 sm:h-80 sm:w-80"
+              className="relative h-72 w-72 rounded-[2rem] object-cover shadow-2xl ring-8 ring-slate-800/80 sm:h-80 sm:w-80"
               src="/shreyasmore.jpeg"
               alt="Shreyas More"
               width={320}
@@ -141,15 +141,15 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="grid gap-8 rounded-[2rem] border border-slate-200/80 bg-white/70 p-8 shadow-sm backdrop-blur lg:grid-cols-[1.1fr_0.9fr] lg:p-10">
+        <section id="about" className="grid gap-8 rounded-[2rem] border border-slate-800/80 bg-slate-900/60 p-8 shadow-sm backdrop-blur lg:grid-cols-[1.1fr_0.9fr] lg:p-10">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">
               About Me
             </p>
-            <h2 className="mt-3 text-3xl font-semibold text-slate-950">
+            <h2 className="mt-3 text-3xl font-semibold text-white">
               I build intelligent products that are useful, scalable, and production-ready.
             </h2>
-            <p className="mt-4 text-lg leading-8 text-slate-600">
+            <p className="mt-4 text-lg leading-8 text-slate-300">
               My work sits at the intersection of AI, cloud, and product engineering. I enjoy turning ideas into practical systems—whether that means building agentic workflows, integrating LLMs into real user journeys, or designing the platform foundation that makes those experiences reliable and measurable.
             </p>
           </div>
@@ -198,12 +198,12 @@ export default function Home() {
         </section>
         */}
 
-        <section id="certifications" className="rounded-[2rem] border border-slate-200/80 bg-white/70 p-8 shadow-sm backdrop-blur lg:p-10">
+        <section id="certifications" className="rounded-[2rem] border border-slate-800/80 bg-slate-900/60 p-8 shadow-sm backdrop-blur lg:p-10">
           <div className="mb-6">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">
               Certifications
             </p>
-            <h2 className="mt-2 text-3xl font-semibold text-slate-950">
+            <h2 className="mt-2 text-3xl font-semibold text-white">
               Credentials and professional learning milestones.
             </h2>
           </div>
@@ -215,35 +215,35 @@ export default function Home() {
                 href={certification.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-sky-200 hover:bg-white hover:shadow-md"
+                className="group rounded-[1.5rem] border border-slate-800 bg-slate-900/80 p-6 transition hover:-translate-y-1 hover:border-cyan-400/50 hover:bg-slate-800 hover:shadow-md"
               >
                 <div className="flex items-start justify-between gap-3">
-                  <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700">
+                  <p className="text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
                     {certification.issuer}
                   </p>
                   <span
                     className={`rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] ${
                       certification.status === "Active"
-                        ? "bg-emerald-100 text-emerald-700"
+                        ? "bg-emerald-400/15 text-emerald-300"
                         : certification.status === "Legacy"
-                          ? "bg-amber-100 text-amber-700"
-                          : "bg-slate-200 text-slate-700"
+                          ? "bg-amber-400/15 text-amber-300"
+                          : "bg-slate-700 text-slate-300"
                     }`}
                   >
                     {certification.status}
                   </span>
                 </div>
-                <h3 className="mt-4 text-xl font-semibold text-slate-900">
+                <h3 className="mt-4 text-xl font-semibold text-white">
                   {certification.title}
                 </h3>
-                <div className="mt-3 space-y-1 text-sm text-slate-600">
+                <div className="mt-3 space-y-1 text-sm text-slate-400">
                   <p>{certification.issued}</p>
                   <p>{certification.expires}</p>
                   {certification.credentialId ? (
-                    <p className="font-medium text-slate-700">ID: {certification.credentialId}</p>
+                    <p className="font-medium text-slate-300">ID: {certification.credentialId}</p>
                   ) : null}
                 </div>
-                <div className="mt-5 inline-flex items-center text-sm font-semibold text-slate-900">
+                <div className="mt-5 inline-flex items-center text-sm font-semibold text-slate-100">
                   Show credential
                   <span aria-hidden="true" className="ml-2 transition group-hover:translate-x-1">
                     →
@@ -289,7 +289,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t border-slate-200/70 bg-white/60 py-6 text-center text-sm text-slate-500">
+      <footer className="border-t border-slate-800/70 bg-slate-950/40 py-6 text-center text-sm text-slate-500">
         © 2026 Shreyas More. Crafted with care.
       </footer>
     </div>

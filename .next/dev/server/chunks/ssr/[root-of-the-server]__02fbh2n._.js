@@ -101,14 +101,14 @@ const certifications = [
 ];
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.16),_transparent_35%),linear-gradient(135deg,_#f8fbff_0%,_#eef4ff_100%)] text-slate-800",
+        className: "min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.14),_transparent_32%),linear-gradient(135deg,_#07111f_0%,_#0f172a_55%,_#111827_100%)] text-slate-200",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: "mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-8 lg:px-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#home",
-                        className: "text-lg font-semibold tracking-tight text-slate-900",
+                        className: "text-lg font-semibold tracking-tight text-white",
                         children: "Shreyas More"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
@@ -116,11 +116,11 @@ function Home() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        className: "hidden gap-6 text-sm font-medium text-slate-600 md:flex",
+                        className: "hidden gap-6 text-sm font-medium text-slate-400 md:flex",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#about",
-                                className: "transition hover:text-slate-900",
+                                className: "transition hover:text-white",
                                 children: "About"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
@@ -129,7 +129,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#work",
-                                className: "transition hover:text-slate-900",
+                                className: "transition hover:text-white",
                                 children: "Work"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
@@ -138,7 +138,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#certifications",
-                                className: "transition hover:text-slate-900",
+                                className: "transition hover:text-white",
                                 children: "Certifications"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
@@ -147,7 +147,7 @@ function Home() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#contact",
-                                className: "transition hover:text-slate-900",
+                                className: "transition hover:text-white",
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
@@ -171,12 +171,12 @@ function Home() {
                 className: "mx-auto flex max-w-6xl flex-col gap-16 px-6 pb-20 sm:px-8 lg:px-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "grid items-center gap-10 rounded-[2rem] border border-slate-200/80 bg-white/80 p-8 shadow-[0_20px_80px_-30px_rgba(15,23,42,0.35)] backdrop-blur md:grid-cols-[1.2fr_0.8fr] md:p-12 lg:p-16",
+                        className: "grid items-center gap-10 rounded-[2rem] border border-slate-800/80 bg-slate-900/70 p-8 shadow-[0_20px_80px_-30px_rgba(0,0,0,0.8)] backdrop-blur md:grid-cols-[1.2fr_0.8fr] md:p-12 lg:p-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mb-3 inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700",
+                                        className: "mb-3 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-sm font-medium text-cyan-300",
                                         children: "AI Engineer • Cloud & Product Builder"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -184,7 +184,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "max-w-2xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl",
+                                        className: "max-w-2xl text-4xl font-semibold tracking-tight text-white sm:text-5xl",
                                         children: "Building AI-powered products that turn complex systems into practical outcomes."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -192,7 +192,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-5 max-w-xl text-lg leading-8 text-slate-600",
+                                        className: "mt-5 max-w-xl text-lg leading-8 text-slate-300",
                                         children: "I design and ship intelligent experiences across cloud architecture, LLM applications, automation, and product engineering—bringing strategy, data, and deployment together into reliable systems."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -204,7 +204,7 @@ function Home() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#certifications",
-                                                className: "rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700",
+                                                className: "rounded-full bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-200",
                                                 children: "View Credentials"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -213,7 +213,7 @@ function Home() {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#contact",
-                                                className: "rounded-full border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:bg-slate-50",
+                                                className: "rounded-full border border-slate-700 px-5 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:bg-slate-800",
                                                 children: "Let's Connect"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -230,7 +230,7 @@ function Home() {
                                         className: "mt-8 flex flex-wrap gap-3",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600",
+                                                className: "rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300",
                                                 children: "LLMs & AI workflows"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -238,7 +238,7 @@ function Home() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600",
+                                                className: "rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300",
                                                 children: "AWS + Azure cloud systems"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -246,7 +246,7 @@ function Home() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "rounded-full bg-slate-100 px-3 py-2 text-sm text-slate-600",
+                                                className: "rounded-full bg-slate-800/80 px-3 py-2 text-sm text-slate-300",
                                                 children: "End-to-end product delivery"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -276,7 +276,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        className: "relative h-72 w-72 rounded-[2rem] object-cover shadow-2xl ring-8 ring-white/70 sm:h-80 sm:w-80",
+                                        className: "relative h-72 w-72 rounded-[2rem] object-cover shadow-2xl ring-8 ring-slate-800/80 sm:h-80 sm:w-80",
                                         src: "/shreyasmore.jpeg",
                                         alt: "Shreyas More",
                                         width: 320,
@@ -301,12 +301,12 @@ function Home() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         id: "about",
-                        className: "grid gap-8 rounded-[2rem] border border-slate-200/80 bg-white/70 p-8 shadow-sm backdrop-blur lg:grid-cols-[1.1fr_0.9fr] lg:p-10",
+                        className: "grid gap-8 rounded-[2rem] border border-slate-800/80 bg-slate-900/60 p-8 shadow-sm backdrop-blur lg:grid-cols-[1.1fr_0.9fr] lg:p-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm font-semibold uppercase tracking-[0.3em] text-slate-500",
+                                        className: "text-sm font-semibold uppercase tracking-[0.3em] text-slate-400",
                                         children: "About Me"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -314,7 +314,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "mt-3 text-3xl font-semibold text-slate-950",
+                                        className: "mt-3 text-3xl font-semibold text-white",
                                         children: "I build intelligent products that are useful, scalable, and production-ready."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -322,7 +322,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-4 text-lg leading-8 text-slate-600",
+                                        className: "mt-4 text-lg leading-8 text-slate-300",
                                         children: "My work sits at the intersection of AI, cloud, and product engineering. I enjoy turning ideas into practical systems—whether that means building agentic workflows, integrating LLMs into real user journeys, or designing the platform foundation that makes those experiences reliable and measurable."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -390,13 +390,13 @@ function Home() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                         id: "certifications",
-                        className: "rounded-[2rem] border border-slate-200/80 bg-white/70 p-8 shadow-sm backdrop-blur lg:p-10",
+                        className: "rounded-[2rem] border border-slate-800/80 bg-slate-900/60 p-8 shadow-sm backdrop-blur lg:p-10",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "mb-6",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-sm font-semibold uppercase tracking-[0.3em] text-slate-500",
+                                        className: "text-sm font-semibold uppercase tracking-[0.3em] text-slate-400",
                                         children: "Certifications"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -404,7 +404,7 @@ function Home() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "mt-2 text-3xl font-semibold text-slate-950",
+                                        className: "mt-2 text-3xl font-semibold text-white",
                                         children: "Credentials and professional learning milestones."
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
@@ -423,13 +423,13 @@ function Home() {
                                         href: certification.link,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        className: "group rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 transition hover:-translate-y-1 hover:border-sky-200 hover:bg-white hover:shadow-md",
+                                        className: "group rounded-[1.5rem] border border-slate-800 bg-slate-900/80 p-6 transition hover:-translate-y-1 hover:border-cyan-400/50 hover:bg-slate-800 hover:shadow-md",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex items-start justify-between gap-3",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-xs font-semibold uppercase tracking-[0.25em] text-sky-700",
+                                                        className: "text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300",
                                                         children: certification.issuer
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -437,7 +437,7 @@ function Home() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: `rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] ${certification.status === "Active" ? "bg-emerald-100 text-emerald-700" : certification.status === "Legacy" ? "bg-amber-100 text-amber-700" : "bg-slate-200 text-slate-700"}`,
+                                                        className: `rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] ${certification.status === "Active" ? "bg-emerald-400/15 text-emerald-300" : certification.status === "Legacy" ? "bg-amber-400/15 text-amber-300" : "bg-slate-700 text-slate-300"}`,
                                                         children: certification.status
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
@@ -451,7 +451,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "mt-4 text-xl font-semibold text-slate-900",
+                                                className: "mt-4 text-xl font-semibold text-white",
                                                 children: certification.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
@@ -459,7 +459,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mt-3 space-y-1 text-sm text-slate-600",
+                                                className: "mt-3 space-y-1 text-sm text-slate-400",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: certification.issued
@@ -476,7 +476,7 @@ function Home() {
                                                         columnNumber: 19
                                                     }, this),
                                                     certification.credentialId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "font-medium text-slate-700",
+                                                        className: "font-medium text-slate-300",
                                                         children: [
                                                             "ID: ",
                                                             certification.credentialId
@@ -493,7 +493,7 @@ function Home() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "mt-5 inline-flex items-center text-sm font-semibold text-slate-900",
+                                                className: "mt-5 inline-flex items-center text-sm font-semibold text-slate-100",
                                                 children: [
                                                     "Show credential",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -615,7 +615,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "border-t border-slate-200/70 bg-white/60 py-6 text-center text-sm text-slate-500",
+                className: "border-t border-slate-800/70 bg-slate-950/40 py-6 text-center text-sm text-slate-500",
                 children: "© 2026 Shreyas More. Crafted with care."
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
