@@ -13,8 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shreyas More | Portfolio",
-  description: "Professional portfolio website for Shreyas More, showcasing web development and digital product work.",
+  metadataBase: new URL("https://www.shrecodes.com"),
+  title: "Shreyas More | AI Engineer",
+  description: "AI Engineer portfolio for Shreyas More, focused on LLM-powered products, cloud architecture, and product engineering.",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
