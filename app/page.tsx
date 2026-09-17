@@ -1,26 +1,5 @@
 import Image from "next/image";
 
-const projects = [
-  {
-    title: "Product Launch Site",
-    description:
-      "A polished marketing experience designed to help a startup introduce a new platform with clarity and confidence.",
-    stack: ["Next.js", "Tailwind", "Design Systems"],
-  },
-  {
-    title: "Client Dashboard",
-    description:
-      "An internal dashboard focused on reducing friction, surfacing insights, and improving daily decision-making.",
-    stack: ["React", "TypeScript", "Accessibility"],
-  },
-  {
-    title: "Creative Portfolio",
-    description:
-      "A visually refined portfolio that balances storytelling, motion, and strong conversion-focused calls to action.",
-    stack: ["Frontend", "Animation", "Content Strategy"],
-  },
-];
-
 const certifications = [
   {
     title: "AWS Certified AI Practitioner",
