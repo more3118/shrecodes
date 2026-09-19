@@ -67,7 +67,13 @@ jobs:
                 continue
               fi
 
-              echo "npm audit could not reach npm advisory services after retries; treating as transient upstream outage."
+              echo "::warning title=Dependency audit skipped::npm advisory service returned HTTP 503 after $max_attempts attempts; continuing without a completed vulnerability audit."
+              {
+                echo "### Dependency audit skipped"
+                echo
+                echo "- Reason: npm advisory service returned HTTP 503 after $max_attempts attempts."
+                echo "- Impact: build continued without a completed vulnerability audit."
+              } >>"$GITHUB_STEP_SUMMARY"
               exit 0
             fi
 
