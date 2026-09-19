@@ -45,17 +45,22 @@ jobs:
             echo "Running npm audit (attempt $attempt/$max_attempts)..."
 
             set +e
-            audit_output="$(npm audit --audit-level=high 2>&1)"
+            audit_report="$(mktemp)"
+            npm audit --audit-level=high --json >"$audit_report"
             audit_status=$?
             set -e
 
-            echo "$audit_output"
+            cat "$audit_report"
 
             if [ "$audit_status" -eq 0 ]; then
+              rm -f "$audit_report"
               exit 0
             fi
 
-            if echo "$audit_output" | grep -qiE "audit endpoint returned an error|503 Service Unavailable|performing maintenance"; then
+            audit_error_code="$(node -e 'const fs=require("node:fs");try{const report=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));if(report?.error?.code!==undefined){process.stdout.write(String(report.error.code));}}catch{}' "$audit_report")"
+            rm -f "$audit_report"
+
+            if [ "$audit_error_code" = "503" ]; then
               if [ "$attempt" -lt "$max_attempts" ]; then
                 sleep $((attempt * 5))
                 attempt=$((attempt + 1))
