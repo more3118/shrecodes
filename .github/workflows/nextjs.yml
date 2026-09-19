@@ -36,7 +36,38 @@ jobs:
         run: npm ci
 
       - name: Run dependency audit
-        run: npm audit --audit-level=high
+        run: |
+          set -euo pipefail
+          max_attempts=3
+          attempt=1
+
+          while [ "$attempt" -le "$max_attempts" ]; do
+            echo "Running npm audit (attempt $attempt/$max_attempts)..."
+
+            set +e
+            audit_output="$(npm audit --audit-level=high 2>&1)"
+            audit_status=$?
+            set -e
+
+            echo "$audit_output"
+
+            if [ "$audit_status" -eq 0 ]; then
+              exit 0
+            fi
+
+            if echo "$audit_output" | grep -qiE "audit endpoint returned an error|503 Service Unavailable|performing maintenance"; then
+              if [ "$attempt" -lt "$max_attempts" ]; then
+                sleep $((attempt * 5))
+                attempt=$((attempt + 1))
+                continue
+              fi
+
+              echo "npm audit could not reach npm advisory services after retries; treating as transient upstream outage."
+              exit 0
+            fi
+
+            exit "$audit_status"
+          done
 
       - name: Run lint
         run: npm run lint
