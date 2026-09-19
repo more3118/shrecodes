@@ -2,6 +2,15 @@ import Image from "next/image";
 
 const certifications = [
   {
+    title: "Claude Certified Associate - Foundations",
+    issuer: "Anthropic",
+    issued: "Issued Sep 2026",
+    expires: "Expires Sep 2027",
+    status: "Active",
+    credentialId: "a6041115-4794-4f40-8459-c3094901b358",
+    link: "https://www.credly.com/badges/a6041115-4794-4f40-8459-c3094901b358/public_url",
+  },
+  {
     title: "AWS Certified AI Practitioner",
     issuer: "Amazon Web Services (AWS)",
     issued: "Issued Jun 2026",
