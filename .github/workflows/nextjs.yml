@@ -46,7 +46,7 @@ jobs:
 
             set +e
             audit_report="$(mktemp)"
-            npm audit --audit-level=high --json >"$audit_report"
+            npm audit --audit-level=high --json >"$audit_report" 2>&1
             audit_status=$?
             set -e
 
@@ -57,7 +57,7 @@ jobs:
               exit 0
             fi
 
-            audit_error_code="$(node -e 'const fs=require("node:fs");try{const report=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));if(report?.error?.code!==undefined){process.stdout.write(String(report.error.code));}}catch{}' "$audit_report")"
+            audit_error_code="$(node -e 'const fs=require("node:fs");try{const output=fs.readFileSync(process.argv[1],"utf8");const start=output.indexOf(\"{\");const end=output.lastIndexOf(\"}\");if(start===-1||end===-1||end<start){process.exit(0);}const report=JSON.parse(output.slice(start,end+1));if(report?.error?.code!==undefined){process.stdout.write(String(report.error.code));}}catch{}' "$audit_report")"
             rm -f "$audit_report"
 
             if [ "$audit_error_code" = "503" ]; then
